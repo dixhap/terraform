@@ -1,0 +1,19 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+
+        "virtualNetworkResourceGroup": {
+            "value": "NewARM"
+       },
+        "vnetName": {
+            "value": "dev-network-vnet"
+        },
+        
+        "addressPrefixes" : {
+            "addressPrefixes" : "10.2.40.1/22"
+        }
+    }
+
+
+  }
